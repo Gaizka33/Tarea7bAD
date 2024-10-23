@@ -11,7 +11,7 @@ public class CreacionDeAlumnos {
 	private final static DateTimeFormatter format = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 
 	public static ArrayList<Alumno> create5students() {
-		for (int i = 0; i < 1; i++) {
+		for (int i = 0; i < 5; i++) {
 			studentlist.add(createStudent());
 		}
 		return studentlist;
